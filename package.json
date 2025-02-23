@@ -1,0 +1,17 @@
+{
+  "name": "woolies-scraper",
+  "version": "1.0.0",
+  "description": "a Javascript Web Scraper to scrape Woolworth's data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Anindya Sarup",
+  "license": "ISC",
+  "packageManager": "pnpm@10.4.1",
+  "engines": {
+    "node": ">=23.8.0",
+    "pnpm": ">=10.4.1"
+  }
+}
