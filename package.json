@@ -1,6 +1,7 @@
 {
   "name": "woolies-scraper",
   "version": "1.0.0",
+  "type": "module",
   "description": "a Javascript Web Scraper to scrape Woolworth's data",
   "main": "index.js",
   "scripts": {
