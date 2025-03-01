@@ -15,6 +15,7 @@ export default antfu({
             ignoreRestSiblings: true
         }],
         '@stylistic/comma-dangle': ['error', 'never'],
-        '@stylistic/arrow-parens': ['error', 'as-needed']
+        '@stylistic/arrow-parens': ['error', 'as-needed'],
+        '@stylistic/max-len': ['error', { code: 80, ignoreStrings: true, ignoreUrls: true }]
     }
 });

@@ -18,6 +18,6 @@ describe('getBrowser', async () => {
     });
 
     await it('launches in headless', async () => {
-        assert.ok(browser._options.headless);
+        assert.ok(browser._options.headless, 'browser is not set in headless mode');
     });
 });
