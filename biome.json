@@ -14,7 +14,9 @@
         "attributePosition": "auto",
         "indentStyle": "space",
         "indentWidth": 4,
-        "lineEnding": "lf"
+        "lineEnding": "lf",
+        "bracketSpacing": true,
+        "lineWidth": 80
     },
     "organizeImports": {
         "enabled": true
@@ -35,7 +37,9 @@
         "formatter": {
             "arrowParentheses": "asNeeded",
             "quoteStyle": "single",
-            "trailingCommas": "none"
+            "trailingCommas": "none",
+            "semicolons": "always",
+            "bracketSameLine": true
         }
     },
     "json": {
