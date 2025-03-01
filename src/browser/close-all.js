@@ -1,4 +1,4 @@
-export const closeAll = async (args) => {
-    const closed = await Promise.allSettled(args.map(x => x.close()));
+export const closeAll = async resources => {
+    const closed = await Promise.allSettled(resources.map(x => x.close()));
     return closed.filter(object => object.status === 'rejected');
 };
